@@ -122,7 +122,7 @@ public class pretest extends javax.swing.JFrame {
             
         }
         
-        int simpan = JOptionPane.showConfirmDialog(this, "Selamat Data Tersimpan", "Simpan",JOptionPane.YES_NO_OPTION);
+        int simpan = JOptionPane.showConfirmDialog(this, "Selamat Data Tersimpan", "Simpan"+ nama + "nilai" + nim,JOptionPane.YES_NO_OPTION);
         if (simpan==JOptionPane.YES_OPTION){
             
         }
